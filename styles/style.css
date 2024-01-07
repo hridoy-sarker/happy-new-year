@@ -1,0 +1,43 @@
+
+/* starting banner style */
+
+
+.banner{
+    margin: 50px 300px;
+    width: 1320px;
+height: 600px;
+flex-shrink: 0;
+background-color: antiquewhite;
+border: 16px;
+border-radius: 16px;
+background-image: url('../resources/Banner\ Image.png');
+background: linear-gradient(180deg, #0000001c);
+
+.first-heading{
+    text-align: center;
+padding: 177px 531px 0px 530px;
+height: 40px;
+width: 249px;
+}
+
+.new-year{
+    color: #FFF;
+    text-align: center;
+    font-family: merriweather;
+    font-size: 32px;
+font-weight: 400;
+}
+
+.second-heading{
+    text-align: center;
+    width: 632px;
+    height: 190px;
+    padding: 0px 344px 177px 344px;
+}
+.new-year-2{
+    color: #fff;
+    font-family: merriweather;
+    font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+}
