@@ -166,8 +166,6 @@ letter-spacing: 7.04px;
 
 /* starting fourth section */
 
-
-
 .fourth-section{
     
     fill: linen;
@@ -209,6 +207,60 @@ line-height: 56px;
    border-radius: 8px;
    background: #f00;
 }
+
+
+/* starting sixth section */
+
+.holidays-offer{
+    display:block ;
+    margin: 50px 300px;
+    background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position:  right, bottom;
+    
+}
+.holiday{
+    text-align: center;
+    padding: 100px 260px 50px 260px;
+}
+.holiday h3{
+    
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday h1{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+#span{
+    color: #070211;
+}
+.holiday p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+.circle{
+    width: 100px;
+    padding: 200px 300px 100px 800px;
+}
+
+.box{
+    width: 400px;
+    padding: 100px 0px 0px 10px;
+}
+
+
 
 /* starting seventh section */
 
@@ -395,7 +447,5 @@ line-height: 40px; /* 166.667% */
    
     width: fixed 145px;
     height: fixed 29px;
-   
-    
     
 }
