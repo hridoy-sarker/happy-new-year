@@ -245,3 +245,70 @@ line-height: 56px;
     font-size: 20px;
     
 }
+
+/* starting seventh section */
+
+.contact-info{
+    text-align: center;
+    margin: 100px 300px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: fixed 1320px;
+    height: fixed 616px;
+   flex-shrink: 0;
+}
+.email-photo{
+   padding: 50px 300px 0px 300px;
+   width: fixed 150px;
+   height: fixed 150px;
+
+
+}
+
+.newsletter{
+    padding: 0px 200px 0px 200px;
+    width: fixed 512px;
+    height: fixed 60px;
+    text-align: center;
+    font-family: merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+}
+
+.subscribe-paragraph{
+    padding: 0px 212px 0px 212px;
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+
+
+}
+
+.input{
+    padding: 0px 336px 0px 336px;
+    width: fixed 648px;
+    height: fixed 72px;
+    flex-shrink: 0;
+}
+
+.large-input{
+
+    padding: 25px 477px 25px 30px;
+    border-radius: 50px;
+    background: #fff;
+    
+}
+.small-input{
+   color: #f00;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+    padding: 0px 0px 0px 0px;
+    }
