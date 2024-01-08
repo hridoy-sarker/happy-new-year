@@ -3,17 +3,14 @@
 
 
 .banner{
-    margin: 50px 300px;
-    width: 1320px;
-height: 600px;
-flex-shrink: 0;
+ margin: 120px 140px;
 border: 16px;
 border-radius: 16px;
 background-image: url('../resources/Banner\ Image.png');
 background: linear-gradient(180deg, #0000001c);
 
 .first-heading{
-    text-align: center;
+text-align: center;
 padding: 177px 531px 0px 530px;
 height: 40px;
 width: 249px;
@@ -42,8 +39,6 @@ line-height: 95px;
 
 /* second section style */
 
-
-
 }
 .discount-head{
     text-align: center;
@@ -58,6 +53,8 @@ line-height: 95px;
     font-family: merriweather;
     font-size: 88px;
     font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 48px;
     
 }
 
@@ -76,12 +73,13 @@ line-height: 95px;
     font-weight: 500;
 
 }
-
 .fifth-head{
     text-align: center;
     padding: 0px 630px 0px 610px;
     width: 410px;
     height: 58px;
+    margin-top: 45px;
+
 }
 
 .category{
@@ -105,13 +103,10 @@ line-height: 95px;
 
 /* starting third section */
 
-.third-section{
-    
-}
+
 .midnight{
     display: flex;
-    
-    margin: 50px 300px;
+    margin: 120px 140px;
     height: 600px;
 flex-shrink: 0;
 border: 16px;
@@ -150,7 +145,7 @@ letter-spacing: 7.04px;
     padding: 20px 200px 100px 126px;
 }
 .button{
-    color:#FFF
+    color:#FFF;
     text-align: center;
     font-family: inter;
     font-size: 20px;
@@ -166,12 +161,12 @@ letter-spacing: 7.04px;
 
 /* starting fourth section */
 
-.fourth-section{
-    
+.git{
+    margin-bottom: 120px;
     fill: linen;
 }
 .information{
-    margin: 50px 300px;
+    margin: 120px 140px;
     display: block;
     text-align: center;
    padding-top: 100px;
@@ -210,7 +205,7 @@ line-height: 56px;
 /* starting fifth section */
 
 .upcoming{
-    margin: 50px 300px;
+    margin: 120px 140px;
 display: flex;
 
 background-color: #FFF;
@@ -235,7 +230,7 @@ padding: 0px 20px;
 
 .holidays-offer{
     display:block ;
-    margin: 50px 200px;
+    margin: 120px 140px;
     background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position:  right, bottom;
@@ -257,9 +252,8 @@ font-weight: 500;
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
-font-style: normal;
 font-weight: 900;
-line-height: normal;
+
 }
 #span{
     color: #070211;
@@ -285,13 +279,17 @@ line-height: 32px; /* 160% */
 
 
 /* starting seventh section */
-
+.seventh-section{
+    margin: 120px 140px;
+}
 .sixth-section{
-    margin: 100px 300px;
+    margin: 120px 140px;
     text-align: left;
 }
 .photo{
     display: flex;
+    column-gap: 24px;
+    row-gap: 24px;
 }
 
 #best-offer{
@@ -299,6 +297,7 @@ line-height: 32px; /* 160% */
     font-family: inter;
     font-size: 24px;
     font-weight: 500;
+   
 }
 
 #awesome-portfolio{
@@ -306,17 +305,17 @@ line-height: 32px; /* 160% */
     font-family: merriweather;
     font-size: 48px;
     font-weight: 900;
-    width: 566px;
-    height: 60px;
     padding: 5px 450px 10px 5px;
+    margin-bottom: 22px;
+    margin-top: 16px;
 
 }
 
 #paragraph-details-2{
-    width: 896px;
-    height: 64px;
-    color: #rgba(7, 2, 0.60);
+    color: rgba(7, 2, 0.60);
     font-size: 20px;
+    margin-bottom: 48px;
+    margin-top: 0px;
     
 }
 
@@ -324,51 +323,43 @@ line-height: 32px; /* 160% */
 
 .contact-info{
     text-align: center;
-    margin: 100px 300px;
+    margin: 120px 140px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    width: fixed 1320px;
-    height: fixed 616px;
-   flex-shrink: 0;
+    
 }
 .email-photo{
    padding: 50px 300px 0px 300px;
-   width: fixed 150px;
-   height: fixed 150px;
+   
 
 
 }
 
 .newsletter{
     padding: 0px 200px 0px 200px;
-    width: fixed 512px;
-    height: fixed 60px;
     text-align: center;
     font-family: merriweather;
     font-size: 48px;
     font-weight: 900;
     color: #070211;
+    margin-top: 40px;
+    margin-bottom: 22px;
 }
 
 .subscribe-paragraph{
     padding: 0px 212px 0px 212px;
-    width: 896px;
-    height: 64px;
     color: rgba(7, 2, 17, 0.60);
 text-align: center;
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
 line-height: 32px; /* 160% */
-
-
 }
 
 .input{
     padding: 0px 336px 0px 336px;
-    width: fixed 648px;
-    height: fixed 72px;
     flex-shrink: 0;
+    
 }
 
 .large-input{
@@ -376,7 +367,8 @@ line-height: 32px; /* 160% */
     padding: 25px 477px 25px 30px;
     border-radius: 50px;
     background: #fff;
-    
+    margin-bottom: 80px;
+    margin-top: 48px;
 }
 .small-input{
    color: #f00;
@@ -385,6 +377,7 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 600;
     padding: 0px 0px 0px 0px;
+    margin-left: -120px;
     }
 
     /* starting footer section  */
@@ -407,8 +400,8 @@ font-weight: 600;
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
+/* font-weight: 500;
+line-height: 40px; 166.667% */
 padding: 100PX 50px 50px 50px;
 
 }
@@ -460,7 +453,7 @@ font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 line-height: 40px; /* 166.667% */
-   
+}
 .main-five{
     color: #FFF;
     font-family: Inter;
