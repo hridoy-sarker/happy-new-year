@@ -210,7 +210,7 @@ line-height: 56px;
    background: #f00;
 }
 
-/* starting sixth section */
+/* starting seventh section */
 
 .sixth-section{
     margin: 100px 300px;
@@ -246,7 +246,7 @@ line-height: 56px;
     
 }
 
-/* starting seventh section */
+/* starting eighth section */
 
 .contact-info{
     text-align: center;
@@ -306,9 +306,96 @@ line-height: 32px; /* 160% */
 }
 .small-input{
    color: #f00;
-text-align: center;
+
 font-family: Inter;
 font-size: 20px;
 font-weight: 600;
     padding: 0px 0px 0px 0px;
     }
+
+    /* starting footer section  */
+
+.main-div{
+    width:  fixed 1600px;
+    height: fixed 609px;
+    display: flex;
+    background-color: #070211;
+}
+
+.main-one{
+    
+    display: block;
+   
+    
+}
+
+.main-second-one{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+padding: 100PX 50px 50px 50px;
+
+}
+.main-second-two{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding: 700PX 50PX 50PX 50PX;
+
+
+
+
+
+}
+.main-two{
+    display: flex;
+    padding: 400px 400px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.icon{
+    text-align: center;
+    
+}
+
+.main-div-2{
+    display: block;
+    padding: 0px;
+}
+.main-three{
+    display: flex;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+padding: 100PX 100px 0px 0px;
+
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+   
+}
+.main-four{
+    display: flex;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+   
+.main-five{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+   
+    width: fixed 145px;
+    height: fixed 29px;
+   
+    
+    
+}
