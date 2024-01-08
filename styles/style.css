@@ -7,7 +7,6 @@
     width: 1320px;
 height: 600px;
 flex-shrink: 0;
-background-color: antiquewhite;
 border: 16px;
 border-radius: 16px;
 background-image: url('../resources/Banner\ Image.png');
@@ -27,7 +26,6 @@ width: 249px;
     font-size: 32px;
 font-weight: 400;
 }
-
 .second-heading{
     text-align: center;
     width: 632px;
@@ -40,4 +38,128 @@ font-weight: 400;
     font-size: 72px;
 font-weight: 900;
 line-height: 95px;
+}
+
+/* second section style */
+
+
+
+}
+.discount-head{
+    text-align: center;
+    padding: 0px 615px 0px 615px;  
+    width: 383px;
+    height: 107px;
+    display: inline;
+}
+.discount-offer{
+    color: #f00;
+    text-align: center;
+    font-family: merriweather;
+    font-size: 88px;
+    font-weight: 700;
+    
+}
+
+.holiday-head{
+    text-align: center;
+    padding: 0px 630px 0px 610px;
+    width: 400px;
+    height: 30px;
+}
+
+.holiday{
+    color:#f00;
+    text-align: center;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.fifth-head{
+    text-align: center;
+    padding: 0px 630px 0px 610px;
+    width: 410px;
+    height: 58px;
+}
+
+.category{
+    color: #070211;
+    text-align: center;
+    font-family: inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.first-img{
+    text-align: center;
+    padding: 50px 400px 50px 400px;
+}
+.happy{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* starting third section */
+
+.third-section{
+    
+}
+.midnight{
+    display: flex;
+    
+    margin: 50px 300px;
+    height: 600px;
+flex-shrink: 0;
+border: 16px;
+border-radius: 16px;
+gap: 50px; 
+background-image: url('../resources/Vectorrr.png');
+}
+.welcome{
+padding-left: 126px;
+padding-top: 126px;
+width: 642px;
+
+}
+.sixth-heading{
+    color: #FFF;
+font-family: merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+}
+.paragraph{
+    width: 692px;
+    padding-left: 126px;
+}
+.paragraph-details{
+    color: #FFF;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.join{
+    width: 20px;
+    height: 24px;
+    padding: 20px 200px 100px 126px;
+}
+.button{
+    color:#FFF
+    text-align: center;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.second-img{
+    width: 37.012px;
+    height: 20.28px;
+    flex-shrink: 0;
+    padding: 68.11px 138px 187.23px 0;
 }
