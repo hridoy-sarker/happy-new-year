@@ -164,7 +164,7 @@ letter-spacing: 7.04px;
     padding: 68.11px 138px 187.23px 0;
 }
 
-/* starting third section */
+/* starting fourth section */
 
 
 
@@ -208,4 +208,40 @@ line-height: 56px;
    gap: 10px;
    border-radius: 8px;
    background: #f00;
+}
+
+/* starting sixth section */
+
+.sixth-section{
+    margin: 100px 300px;
+    text-align: left;
+}
+.photo{
+    display: flex;
+}
+
+#best-offer{
+    color: #f00;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#awesome-portfolio{
+    color: #070211;
+    font-family: merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    width: 566px;
+    height: 60px;
+    padding: 5px 450px 10px 5px;
+
+}
+
+#paragraph-details-2{
+    width: 896px;
+    height: 64px;
+    color: #rgba(7, 2, 0.60);
+    font-size: 20px;
+    
 }
